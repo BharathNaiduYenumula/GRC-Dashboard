@@ -1,0 +1,36 @@
+ Vulnerability Name, Description, Severity
+ SQL Injection, Allows attackers to execute arbitrary SQL code on the database., High
+ Cross-Site Scripting (XSS), Enables attackers to inject malicious scripts into web pages viewed by users., High
+ Server-Side Request Forgery (SSRF), Allows an attacker to send crafted requests from a vulnerable server., Medium
+ Broken Authentication, Flaws that allow attackers to compromise user accounts., High
+ Security Misconfiguration, Insecure default configurations that expose applications to attacks., Medium
+ Sensitive Data Exposure, Failure to protect sensitive data leading to unauthorized access., High
+ XML External Entities (XXE), Vulnerability in XML parsers that can lead to internal data exposure., Medium
+ Unrestricted File Upload, Allows attackers to upload malicious files without proper checks., High
+ Insecure Deserialization, Flaws that allow attackers to execute arbitrary code during deserialization., High
+ Cross-Site Request Forgery (CSRF), Forces authenticated users to perform unwanted actions on a web application., Medium
+ Insufficient Logging & Monitoring, Lack of logging and monitoring can allow attacks to go unnoticed., Medium
+ Broken Access Control, Improper enforcement of access controls allowing unauthorized actions., High
+ Clickjacking, Tricks users into clicking on something different from what they perceive., Medium
+ Path Traversal Attack, Allows attackers to access files outside the intended directory., Medium
+ Remote Code Execution (RCE), Allows an attacker to execute arbitrary code on a server remotely., Critical
+ Denial of Service (DoS), Attacks that make services unavailable by overwhelming them., High
+ Information Disclosure Vulnerability, Exposes sensitive information due to improper access controls., Medium
+ Man-in-the-Middle Attack (MitM), Interception of communication between two parties by an attacker., High
+ Command Injection Vulnerability, Allows an attacker to execute arbitrary commands on the host operating system., Critical
+ Buffer Overflow Vulnerability, Exploits memory allocation errors leading to arbitrary code execution., Critical
+ Credential Stuffing Attack, Automated injection of breached username/password pairs to fraudulently gain access., High
+ API Vulnerabilities (e.g. Insecure Endpoints), Exposes APIs that can be exploited if not secured properly., High
+ Insufficient Input Validation Vulnerability , Fails to properly validate user inputs leading to various attacks., High
+ Race Condition , Occurs when multiple processes access shared resources concurrently , Medium 
+ Session Fixation , Attacker sets a user's session ID before they log in , Medium 
+ Directory Listing , Exposes directory contents when not configured correctly , Low 
+ Open Redirects , Redirects users without validation leading them to malicious sites , Medium 
+ Email Injection Attack , Manipulates email headers through form input fields , Medium 
+ Clickjacking Vulnerability , Tricks users into clicking on hidden elements of a page , Medium 
+ Insecure Direct Object Reference (IDOR) , Accessing objects directly without authorization checks , High 
+ Subdomain Takeover Vulnerability , Exploits unclaimed subdomains leading to unauthorized control , Critical 
+ Insufficient Cryptography Implementation , Weak cryptographic algorithms lead to data exposure risks , High 
+ Unvalidated Redirects and Forwards Vulnerability , Redirects users without validation leading them to malicious sites. , Medium
+ Improper Error Handling Vulnerability , Fails to handle errors securely exposing sensitive information. , Low
+ Hardcoded Credentials Vulnerability , Credentials embedded in source code leading to unauthorized access. , Critical
