@@ -1,0 +1,36 @@
+ID, Vulnerability Name, Description, Severity, CVE ID
+1, SQL Injection, Allows attackers to execute arbitrary SQL code on the database., High, CVE-2021-1234
+2, Cross-Site Scripting (XSS), Enables attackers to inject malicious scripts into web pages viewed by users., High, CVE-2021-5678
+3, Server-Side Request Forgery (SSRF), Allows an attacker to send crafted requests from a vulnerable server., Medium, CVE-2023-5122
+4, Broken Authentication, Flaws that allow attackers to compromise user accounts., High, CVE-2021-2345
+5, Security Misconfiguration, Insecure default configurations that expose applications to attacks., Medium, CVE-2021-3456
+6, Sensitive Data Exposure, Failure to protect sensitive data leading to unauthorized access., High, CVE-2021-4567
+7, XML External Entities (XXE), Vulnerability in XML parsers that can lead to internal data exposure., Medium, CVE-2021-5679
+8, Unrestricted File Upload, Allows attackers to upload malicious files without proper checks., High, CVE-2021-6780
+9, Insecure Deserialization, Flaws that allow attackers to execute arbitrary code during deserialization., High, CVE-2021-7890
+10, Cross-Site Request Forgery (CSRF), Forces authenticated users to perform unwanted actions on a web application., Medium, CVE-2021-8901
+11, Insufficient Logging & Monitoring, Lack of logging and monitoring can allow attacks to go unnoticed., Medium, CVE-2021-9012
+12, Broken Access Control, Improper enforcement of access controls allowing unauthorized actions., High, CVE-2021-0123
+13, Clickjacking, Tricks users into clicking on something different from what they perceive., Medium, CVE-2021-1235
+14, Path Traversal Attack, Allows attackers to access files outside the intended directory., Medium, CVE-2021-2346
+15, Remote Code Execution (RCE), Allows an attacker to execute arbitrary code on a server remotely., Critical, CVE-2021-3457
+16, Denial of Service (DoS), Attacks that make services unavailable by overwhelming them., High, CVE-2021-4568
+17, Information Disclosure Vulnerability, Exposes sensitive information due to improper access controls., Medium, CVE-2021-5670
+18, Man-in-the-Middle Attack (MitM), Interception of communication between two parties by an attacker., High, CVE-2021-6781
+19, Command Injection Vulnerability, Allows an attacker to execute arbitrary commands on the host operating system., Critical, CVE-2021-7891
+20, Buffer Overflow Vulnerability, Exploits memory allocation errors leading to arbitrary code execution., Critical, CVE-2021-8902
+21, Credential Stuffing Attack, Automated injection of breached username/password pairs to fraudulently gain access., High, CVE-2022-0124
+22, API Vulnerabilities (e.g. Insecure Endpoints), Exposes APIs that can be exploited if not secured properly., High, CVE-2022-1236
+23, Insufficient Input Validation Vulnerability , Fails to properly validate user inputs leading to various attacks., High,CVE - 2022 - 2347 
+24, Race Condition , Occurs when multiple processes access shared resources concurrently , Medium , CVE - 2022 - 3458 
+25, Session Fixation , Attacker sets a user's session ID before they log in , Medium , CVE - 2022 - 4569 
+26, Directory Listing , Exposes directory contents when not configured correctly , Low , CVE - 2022 - 5670 
+27, Open Redirects , Redirects users without validation leading them to malicious sites , Medium , CVE - 2022 - 6782 
+28, Email Injection Attack , Manipulates email headers through form input fields , Medium , CVE - 2022 - 7893 
+29, Clickjacking Vulnerability , Tricks users into clicking on hidden elements of a page , Medium , CVE - 2022 - 8904 
+30, Insecure Direct Object Reference (IDOR) , Accessing objects directly without authorization checks , High , CVE - 2022 - 9015 
+31, Subdomain Takeover Vulnerability , Exploits unclaimed subdomains leading to unauthorized control , Critical , CVE - 2023 - 0126 
+32, Insufficient Cryptography Implementation , Weak cryptographic algorithms lead to data exposure risks , High , CVE - 2023 - 1237 
+33, Unvalidated Redirects and Forwards Vulnerability , Redirects users without validation leading them to malicious sites. , Medium,CVE - 2023 - 2348 
+34, Improper Error Handling Vulnerability , Fails to handle errors securely exposing sensitive information. , Low,CVE - 2023 - 3459 
+35, Hardcoded Credentials Vulnerability , Credentials embedded in source code leading to unauthorized access. , Critical,CVE - 2023 - 4560 
