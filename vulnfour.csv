@@ -1,0 +1,10 @@
+ Vulnerability Name, Description, Severity
+ SQL Injection, Allows attackers to execute arbitrary SQL code on the database., High
+ Cross-Site Scripting (XSS), Enables attackers to inject malicious scripts into web pages viewed by users., High
+ Server-Side Request Forgery (SSRF), Allows an attacker to send crafted requests from a vulnerable server., Medium
+ Broken Authentication, Flaws that allow attackers to compromise user accounts., High
+ Security Misconfiguration, Insecure default configurations that expose applications to attacks., Medium
+ Sensitive Data Exposure, Failure to protect sensitive data leading to unauthorized access., High
+ XML External Entities (XXE), Vulnerability in XML parsers that can lead to internal data exposure., Medium
+ Unrestricted File Upload, Allows attackers to upload malicious files without proper checks., High
+ Insecure Deserialization, Flaws that allow attackers to execute arbitrary code during deserialization., High
